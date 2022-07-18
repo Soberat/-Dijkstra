@@ -1,0 +1,9 @@
+graph graphname {
+    source=San Diego;
+    San Escobar -- San Diego [weight=10];
+    San Escobar -- San Diego [weight=19];
+    San Escobar -- Sao Paulo [weight=7];
+    Sao Paulo -- London [weight=8];
+    San Diego -- London [weight=3];
+    London -- Warsaw [weight=5];
+}

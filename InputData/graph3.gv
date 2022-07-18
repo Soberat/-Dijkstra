@@ -1,0 +1,15 @@
+graph graphname {
+    source=A;
+    A -- C [weight=5];
+    A -- D [weight=6];
+    A -- B [weight=3];
+    B -- D [weight=2];
+    C -- D [weight=2];
+    C -- E [weight=6];
+    C -- F [weight=3];
+    C -- G [weight=7];
+    D -- F [weight=9];
+    E -- F [weight=5];
+    E -- G [weight=2];
+    F -- G [weight=1];
+}
