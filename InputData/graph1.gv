@@ -1,6 +1,0 @@
-graph graphname {
-    source=a;
-    a -- b [weight=123.4];
-    b -- c [weight=212.1];
-    b -- d [weight=0.32];
-}
